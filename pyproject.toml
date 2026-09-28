@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genpark-b-tree-disk-storage-index-skill"
+version = "1.0.0"
+description = "B+ Tree indexing engine with leaf key pagination, range queries, exact point lookups, and split rebalancing."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "AlphaPark Team", email = "engineering@alphapark.ai"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Database :: Database Engines/Servers"
+]
+
+[project.urls]
+Homepage = "https://github.com/alphaparkinc/genpark-b-tree-disk-storage-index-skill"
+Repository = "https://github.com/alphaparkinc/genpark-b-tree-disk-storage-index-skill.git"
+Issues = "https://github.com/alphaparkinc/genpark-b-tree-disk-storage-index-skill/issues"
