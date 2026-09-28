@@ -1,0 +1,9 @@
+{
+  "schema_version": "v1",
+  "name": "genpark-b-tree-disk-storage-index-skill",
+  "version": "1.0.0",
+  "description": "B+ Tree indexing engine with leaf key pagination, range queries, exact point lookups, and split rebalancing.",
+  "entrypoint": "client.py",
+  "mcp_server": "mcp_server.py",
+  "category": "Service"
+}
